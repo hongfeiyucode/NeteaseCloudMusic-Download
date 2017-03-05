@@ -1,0 +1,2 @@
+# NeteaseCloudMusic-Download
+免费下载网易云歌单里所有收费的会员歌曲，并且保存到网易云上
