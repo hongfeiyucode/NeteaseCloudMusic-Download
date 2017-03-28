@@ -1,7 +1,7 @@
 # -*- coding:UTF-8 -*-
 # Author：hongfeiyu
 import os
-path=raw_input("请输入缓存文件目录并彻底退出播放器： ")#.strip()
+path=raw_input(u'请完整输入缓存文件目录并彻底退出播放器： ')#.strip()
 path=path+"/Cache"
 #print path
 files = os.listdir(path)

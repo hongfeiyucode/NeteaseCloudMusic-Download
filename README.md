@@ -4,6 +4,10 @@
 
 >仅供交流，严禁用于其他用途，产生后果自负
 
+编译好的可执行程序下载地址：https://github.com/hongfeiyucode/NeteaseCloudMusic-Download/releases/tag/1.0
+
+当然你也可以用python运行程序
+
 ## 第一步
 
 清空缓存目录
@@ -17,7 +21,7 @@
 
 ## 第三步
 
-复制第一步中的缓存位置，比如我的是`‪/mnt/f/Music/Cache`  
+复制第一步中的缓存位置，比如我的是`‪f:/Music/Cache`  ，注意这一步不能输错，就按网易云程序上的缓存目录输入即可
 彻底退出网易云音乐
 
 运行`NeteaseCloudMusic-Download.py`
