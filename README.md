@@ -6,7 +6,12 @@
 
 编译好的可执行程序下载地址：https://github.com/hongfeiyucode/NeteaseCloudMusic-Download/releases/tag/1.0
 
+
 当然你也可以用python运行程序
+
+
+最简单的如果你是windows系统，直接运行cmd命令，详见第三步
+
 
 ## 第一步
 
@@ -20,11 +25,29 @@
 ![Alt text](https://github.com/hongfeiyucode/NeteaseCloudMusic-Download/blob/master/1488671711149.png)
 
 ## 第三步
-
+### 方法一
 复制第一步中的缓存位置，比如我的是`‪f:/Music/Cache`  ，注意这一步不能输错，就按网易云程序上的缓存目录输入即可
 彻底退出网易云音乐
 
 运行`NeteaseCloudMusic-Download.py`
+### 方法二
+打开缓存目录，里面有一个cache文件夹，里面有很多杂乱的文件，在进入后按住shift再右键
+
+
+选择
+
+
+`在此打开命令窗口`
+
+输入
+`ren *.uc *.mp3`
+
+### 方法三
+
+```
+pip3 install you-get
+you-get http://...
+```
 
 ## 第四步
 
