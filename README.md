@@ -25,6 +25,19 @@
 ![Alt text](https://github.com/hongfeiyucode/NeteaseCloudMusic-Download/blob/master/1488671711149.png)
 
 ## 第三步
+
+### 方法四（其他方法好像被和谐了）
+
+ziwenxie/netease-dl
+
+```
+把被版权和谐的歌放到一个新歌单
+pip3 install netease-dl
+netease-dl user --name 你的用户名
+选择下载那个新歌单
+上传到云网盘
+```
+
 ### 方法一
 复制第一步中的缓存位置，比如我的是`‪f:/Music/Cache`  ，注意这一步不能输错，就按网易云程序上的缓存目录输入即可
 彻底退出网易云音乐
